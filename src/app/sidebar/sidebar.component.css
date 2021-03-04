@@ -1,0 +1,106 @@
+    .mat-icon{
+        vertical-align: middle;
+    }
+
+        .example-tree-invisible {
+            display: none;
+          }
+          
+          .example-tree ul,
+          .example-tree li {
+            margin-top: 0;
+            margin-bottom: 0;
+            list-style-type: none;
+          }
+          .example-tree-node {
+            display: block; 
+            font-size: 15px;
+          }
+          
+          .example-tree-node .example-tree-node {
+            padding-left: 5px;
+          }
+
+          .example-tree-node button {
+              justify-items: right;
+          }
+
+
+
+mat-expansion-panel {
+  background-color: black; 
+  color: white; 
+  border-radius: 0; 
+  border: none; 
+  margin: 0; 
+  padding: 0;
+}
+
+
+mat-expansion-panel-header {
+  color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+mat-panel-title {
+  color: lightgray;
+  justify-content: left;
+}
+
+
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+mat-panel-title:hover {
+  background-color: #555;
+}
+
+mat-panel-title:active {
+  background-color: #555;
+}
+
+.menu {
+  color: white;
+  line-height: 10px;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  color: gray;
+  justify-content: left;
+  position: relative;
+  left: -50px;
+  width: 200px;
+}
+
+
+a {
+  color: gray;  
+}
+
+a:hover {
+  color: white;
+  text-decoration: none; 
+}
+
+a:active {
+  color: white;
+  text-decoration: none; 
+}
+
+.selected {
+  color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,265 @@
+<div>
+  <input type="text" placeholder="Search" name="Search"><mat-icon>search</mat-icon>
+<br/><br/>
+
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <a [routerLink]="['']"><mat-icon>dashboard</mat-icon>&nbsp;&nbsp;Dashboard</a>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+  
+    </mat-expansion-panel>
+
+    
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header style="color: lightgray;">
+        <mat-panel-title >
+          <mat-icon>list</mat-icon>&nbsp;&nbsp;Catalog
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+      
+        <ul>
+          <li><a [routerLink]="['/products']"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Products</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Categories</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Manufacturers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Product reviews</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Product tags</a></li>
+          <li>
+
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                <mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Attributes
+                </mat-panel-title>
+                <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+              </mat-expansion-panel-header>
+              <ul>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Product attributes</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Specification attributes</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Checkout attributes</a></li>
+              </ul>
+            </mat-expansion-panel>
+          </li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>shopping_cart</mat-icon>&nbsp;&nbsp;Sales
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Orders</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Orders</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Shipments</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Return requests</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Recurring payments</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Gift cards</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;SP carts & wishlists</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>person</mat-icon>&nbsp;&nbsp;Customers
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Customers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Customer roles</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Online customers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Vendors</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Activity log</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Activity types</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;GDPR requests (log)</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>local_offer</mat-icon>&nbsp;&nbsp;Promotions
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Discounts</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Affiliates</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Newsletter subscribers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Campaigns</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>topic</mat-icon>&nbsp;&nbsp;Content Management
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Topics (pages)</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Message templates</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;News items</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;News comments</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Blog posts</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Blog comments</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Polls</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Forums</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>settings</mat-icon>&nbsp;&nbsp;Configuration
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul>
+          <li>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                <mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Setting
+                </mat-panel-title>
+                <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+              </mat-expansion-panel-header>
+              
+              <ul style="list-style: none;">
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;General settings</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Customer settings</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Order setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Shipping setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Tax setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Catalog setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Shopping cart setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Reward points</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;GDPR setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Vendor setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Blog setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;News setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Forum setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Media setting</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;All setting (advanced)</a></li>
+              </ul>
+            </mat-expansion-panel>
+            </li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Email accounts</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Stores</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Countries</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Languages</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Currencies</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Payment restrictions</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Tax providers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Tax categories</a></li>
+          <li>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                <mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Shipping
+                </mat-panel-title>
+                <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+              </mat-expansion-panel-header>
+              <ul style="list-style: none;">
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Shipping providers</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Warehouses</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Pickup points</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Dates and ranges</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Measures</a></li>
+              </ul>
+            </mat-expansion-panel>
+            </li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Access control list</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Widgets</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;External authentication</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Local plugins</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;All Plugins & themes</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>desktop_windows</mat-icon>&nbsp;&nbsp;System
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;System information</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;log</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Warnings</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Maintenance</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Message queue</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Schedule tasks</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Search engine friendly page names</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Templates</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>insert_chart_outlined</mat-icon>&nbsp;&nbsp;Reports
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Low stock</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Bestsellers</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Products never purchased</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Country sales</a></li>
+          <li>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                <mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Customer reports
+                </mat-panel-title>
+                <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+              </mat-expansion-panel-header>
+              <ul style="list-style: none;">
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Registered customers</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Customers by order total</a></li>
+                <li><a href="#"><mat-icon style="font-size: 13px;">trip_origin</mat-icon>&nbsp;&nbsp;Customers by number of orders</a></li>
+              </ul>
+            </mat-expansion-panel>
+          </li>
+        </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>help_outline</mat-icon>&nbsp;&nbsp;Help
+        </mat-panel-title>
+        <mat-icon style="float: right;">keyboard_arrow_left</mat-icon>
+      </mat-expansion-panel-header>
+        <ul style="list-style: none;">
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Help topics</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Community forums</a></li>
+          <li><a href="#"><mat-icon style="font-size: 13px;">radio_button_checked</mat-icon>&nbsp;&nbsp;Premium support services</a></li>
+        </ul>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+  
+
+
+  <br/><br/><br/><br/>
+
+
+  
+
+<br/><br/><br/><br/>
+
+
+
+</div>
